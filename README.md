@@ -1,4 +1,6 @@
 SSDT-Boilerplate
 ================
 
-code structure and pattern for ssdt projects
+.net based project code structure and pattern for SSDT projects.
+
+
