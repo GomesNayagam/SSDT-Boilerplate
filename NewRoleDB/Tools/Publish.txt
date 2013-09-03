@@ -1,0 +1,7 @@
+/Action:Publish
+/Variables:DeployType=New
+/p:DropObjectsNotInSource=False
+/p:BlockOnPossibleDataloss=False
+/SourceFile:"../bin/Debug/NewRoleDB.dacpac"
+/TargetServerName:.\sqlexpress
+/TargetDatabaseName:NewRoleDB

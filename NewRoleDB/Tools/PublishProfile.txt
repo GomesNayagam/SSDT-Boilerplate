@@ -1,0 +1,6 @@
+/Action:Publish
+/Variables:DeployType=New
+/p:DropObjectsNotInSource=False
+/p:BlockOnPossibleDataloss=False
+/SourceFile:"../bin/Debug/NewRoleDB.dacpac"
+/pr:"../PublishProfiles/localdb.publish.xml"

@@ -1,0 +1,6 @@
+/Action:DeployReport
+/Variables:DeployType=New
+/SourceFile:"../bin/Debug/NewRoleDB.dacpac"
+/TargetServerName:.\sqlexpress
+/TargetDatabaseName:NewRoleDB
+/OutputPath:output/NewRoleDB.DeployReport.xml

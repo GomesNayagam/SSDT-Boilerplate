@@ -1,0 +1,5 @@
+/Action:Extract
+/OverWriteFiles:True
+/SourceServerName:.\sqlexpress
+/SourceDatabaseName:NewRoleDB
+/TargetFile:output\NewRoleDB.dacpac

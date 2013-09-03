@@ -1,0 +1,5 @@
+/Action:Script
+/SourceFile:"../bin/Debug/NewRoleDB.dacpac"
+/TargetServerName:.\sqlexpress
+/TargetDatabaseName:NewRoleDB
+/OutputPath:output/NewRoleDB.Update.sql
