@@ -106,6 +106,8 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="Security\Schema.sql" />
+    <Build Include="Procedure1.sql" />
+    <Build Include="Audit.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment.sql" />
@@ -119,6 +121,7 @@
     <None Include="Tools\SSDT.bat" />
     <None Include="PublishProfiles\DevEnv.publish.xml" />
     <None Include="PublishProfiles\localdb.publish.xml" />
+    <None Include="Script\Script1.sql" />
   </ItemGroup>
   <ItemGroup>
     <ArtifactReference Include="$(DacPacRootPath)\Extensions\Microsoft\SQLDB\Extensions\SqlServer\100\SqlSchemas\master.dacpac">
@@ -128,9 +131,13 @@
     </ArtifactReference>
   </ItemGroup>
   <ItemGroup>
-    <SqlCmdVariable Include="DeployType">
-      <DefaultValue>Upgrade</DefaultValue>
+    <SqlCmdVariable Include="DBServerName">
+      <DefaultValue>(localdb)\v11.0</DefaultValue>
       <Value>$(SqlCmdVar__1)</Value>
+    </SqlCmdVariable>
+    <SqlCmdVariable Include="Scriptpath">
+      <DefaultValue>d:\</DefaultValue>
+      <Value>$(SqlCmdVar__2)</Value>
     </SqlCmdVariable>
   </ItemGroup>
 </Project>
